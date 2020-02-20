@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.col-md-3 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 25%;
+  float: left;
+}
+
+.col-md-9 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 75%;
+  float: left;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container:before, .container:after, .row:before, .row:after, .container-fluid:before, .container-fluid:after {
+  display: table;
+  content: " ";
+}
+
+.row:after .container-fluid:after, .container:after {
+  clear: both;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 33.33333%;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .header-top .header-top-left-col img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.header .header-top .header-top-left-col div {
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.header .header-top .header-top-left-col h3 {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.header .header-top .header-top-right-col img {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 163, 255, 0.74);
+  border-radius: 50px;
+}
+
+.header .header-top .header-top-right-col i {
+  font-weight: bold;
+}
+
+.header .header-top .header-top-right-col b {
+  color: rgba(0, 163, 255, 0.74);
+}
+
+.header .header-bottom .header-navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 1px solid darkgrey;
+}
+
+.header .header-bottom .header-navbar-list .navbar-item {
+  float: left;
+}
+
+.header .header-bottom .header-navbar-list .navbar-item a {
+  display: block;
+  color: darkgray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header .header-bottom .header-navbar-list .navbar-item a:hover {
+  background-color: #62C5F7;
+  color: aquamarine;
+}
+
+.header .header-bottom .header-navbar-list .navbar-item:nth-child(3) {
+  color: #62C5F7;
+}
+
+.header .header-bottom .header-navbar-list .fa {
+  float: right;
+  border-radius: 50%;
+  height: 25px;
+  line-height: 25px;
+  width: 26px;
+  margin: 12px 0 0px 13px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+}
+
+.header .header-bottom .header-navbar-list .fa-facebook {
+  color: #62C5F7;
+  border: 1px solid #62C5F7;
+}
+
+.header .header-bottom .header-navbar-list .fa-google {
+  color: red;
+  border: 1px solid red;
+}
+
+.header .header-bottom .header-navbar-list .fa-youtube {
+  background-color: red;
+}
+
+.main-section {
+  height: 100px;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.main-section h5 {
+  width: 80vw;
+  margin: 45px auto;
+  padding: auto;
+}
+
+.main-left-col .top div {
+  background-color: #D9E4E9;
+  padding: 10px 20px;
+}
+
+.main-left-col .top div span:last-child {
+  float: right;
+  cursor: pointer;
+}
+
+.main-left-col .top div:after {
+  clear: both;
+  display: block;
+}
+
+.main-left-col .top ul {
+  padding: 15px 30px;
+  list-style-type: circle;
+}
+
+.main-left-col .top ul li {
+  margin: 3px;
+}
+
+.main-left-col .top ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-left-col .bottom {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #D9E4E9;
+}
+
+.main-left-col .bottom hr {
+  background-color: #62C5F7;
+  width: 20%;
+  height: 2px;
+}
+
+.main-left-col .bottom input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 5px;
+  border: none;
+}
+
+.main-left-col .bottom intput[type=button] {
+  width: 50%;
+  margin: 20px auto 5px auto;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #4BBC56;
+  display: block;
+}
+
+.main-right-col .main-aside-product {
+  border: 1px solid darkgray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-right-col .main-aside-product .product-img {
+  padding: 10px;
+  margin: 5px;
+}
+
+.main-right-col .main-aside-product img:first-child {
+  width: 100%;
+  height: 200px;
+  position: center;
+}
+
+.main-right-col .main-aside-product img:last-child {
+  width: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #62C5F7;
+  width: 100vw;
+  display: block;
+  color: white;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.footer .footer-top {
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+.footer .footer-top .col-md-4 ul li {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.footer .footer-top .col-md-4 ul li i {
+  border-radius: 50px;
+  border: 1px solid white;
+  height: 20px;
+  line-height: 19px;
+  width: 20px;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+}
+
+.footer .footer-top .col-md-4:last-child ul {
+  list-style-type: none;
+}
+
+.footer hr {
+  height: 1px;
+}
+
+.footer .footer-bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer .footer-bottom aside:first-child {
+  margin-left: -10px;
+  float: left;
+}
+
+.footer .footer-bottom aside:last-child {
+  margin-right: 10px;
+  float: right;
+}
+
+.footer .footer-bottom aside:last-child span {
+  color: aquamarine;
+}
+/*# sourceMappingURL=style.css.map */
